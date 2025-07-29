@@ -1,0 +1,8 @@
+{
+    "Auth": true,
+    "Dashboard": true,
+    "Users": true,
+    "Shared": true,
+    "Core": true,
+    "Apps": true
+}

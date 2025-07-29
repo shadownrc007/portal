@@ -1,0 +1,8 @@
+{
+  "name": "Dashboard",
+  "alias": "dashboard",
+  "providers": [
+    "Modules\\Dashboard\\Providers\\DashboardServiceProvider",
+    "Modules\\Dashboard\\Providers\\RouteServiceProvider"
+  ]
+}

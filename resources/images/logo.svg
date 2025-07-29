@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Crescentes rojo y azul -->
+  <path d="
+    M600,300
+    m-300,0
+    a300,300 0 1,0 300,-300
+    a240,240 0 1,1 -300,300
+  " fill="#FF0000"></path>
+  <path d="
+    M600,300
+    m300,0
+    a300,300 0 1,1 -300,-300
+    a240,240 0 1,0 300,300
+  " fill="#5C5CFF"></path>
+
+  <!-- Texto VMG en blanco -->
+  <text x="600" y="260" font-family="Arial Black, sans-serif" font-size="200" text-anchor="middle" fill="#FFFFFF">VMG</text>
+
+  <!-- Marco y texto Construction Inc. en blanco -->
+  <rect x="250" y="320" width="700" height="80" rx="40" stroke="#FFFFFF" stroke-width="10" fill="none"></rect>
+  <text x="600" y="375" font-family="Arial, sans-serif" font-size="50" text-anchor="middle" fill="#FFFFFF" dominant-baseline="middle">CONSTRUCTION INC.</text>
+</svg>

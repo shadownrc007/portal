@@ -1,0 +1,28 @@
+Modules/Auth/
+├── Providers/
+│   └── AuthServiceProvider.php
+├── Routes/
+│   ├── web.php
+│   └── api.php
+├── Http/
+│   └── Controllers/
+│       ├── LoginController.php
+│       ├── RegisterController.php
+│       ├── ForgotPasswordController.php
+│       └── ResetPasswordController.php
+├── Entities/
+│   └── User.php
+├── Database/
+│   └── Migrations/
+│       └── 2025_07_23_000000_create_users_table.php
+└── Resources/
+    ├── views/
+    │   └── auth/
+    │       ├── login.blade.php
+    │       ├── register.blade.php
+    │       └── passwords/
+    │           ├── email.blade.php
+    │           └── reset.blade.php
+    └── assets/
+        ├── js/app.js
+        └── sass/app.scss
