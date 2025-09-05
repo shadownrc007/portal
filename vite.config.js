@@ -426,7 +426,7 @@ export default defineConfig({
     ],
 
         // ⚙️  HMR y alias no cambian
-    server: { host: 'portal.test', hmr: { host: 'portal.test' } },
+    server: { host: 'localhost', hmr: { host: 'localhost' } },
 
     
 
